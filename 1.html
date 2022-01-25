@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="#" method="get">
+        <fieldset>
+            <legend>基本信息</legend>
+            用户名称：<input type="text" name='uname' maxlength="8"><br>
+            用户密码：<input type='password' name='upwd' maxlength="12" placeholder="请输入用户密码"><br>
+            用户性别：<input type="radio" name="sex" value="m" id="man"><label for="man">男</label>
+            <input type="radio" name='sex' value="f" id="woman"><label for='woman'>女</label><br>
+        </fieldset>
+        工作城市：<select name="city" id="" size="1" multiple>
+            <option value="bj">北京</option>
+            <option value="sh" selected>上海</option>
+            <option value="sz">深圳</option>
+            <option value="nj">南京</option>
+            <option value="wh">武汉</option>
+        </select>
+        <br>
+        爱好：
+        <input type="checkbox" name="like" id="mov" value="movie"><label for="mov">电影</label>
+        <input type="checkbox" name="like" id="mus" value="music"><label for="mus">音乐</label>
+        <input type="checkbox" name="like" id="gam" value="game"><label for="gam">游戏</label>
+        <br>
+        <input type="file" name="file">
+        <br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+
+</html>
